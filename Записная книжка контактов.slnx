@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="Записная книжка контактов/Записная книжка контактов.csproj" />
+  <Folder Name="/Элементы решения/">
+    <File Path="README.ME" />
+  </Folder>
+  <Project Path="Записная книжка контактов/Записная книжка контактов.csproj" Id="86142570-7283-4984-ad1e-e2b1e5c2438e" />
 </Solution>
