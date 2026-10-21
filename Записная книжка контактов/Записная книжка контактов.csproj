@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81A09DA7-655C-F6DD-8006-9C6324855BAC}</ProjectGuid>
+    <ProjectGuid>{86142570-7283-4984-AD1E-E2B1E5C2438E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Записная_книжка_контактов</RootNamespace>
     <AssemblyName>Записная книжка контактов</AssemblyName>
