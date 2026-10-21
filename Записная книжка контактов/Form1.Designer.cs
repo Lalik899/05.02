@@ -39,15 +39,24 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.colNmae = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContacts)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvContacts
             // 
             this.dgvContacts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvContacts.Location = new System.Drawing.Point(12, 12);
+            this.dgvContacts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colNmae,
+            this.colPhone,
+            this.colEmail,
+            this.colCategory});
+            this.dgvContacts.Location = new System.Drawing.Point(131, 12);
             this.dgvContacts.Name = "dgvContacts";
-            this.dgvContacts.Size = new System.Drawing.Size(776, 277);
+            this.dgvContacts.Size = new System.Drawing.Size(531, 277);
             this.dgvContacts.TabIndex = 0;
             // 
             // txtName
@@ -126,6 +135,26 @@
             this.txtSearch.Size = new System.Drawing.Size(171, 20);
             this.txtSearch.TabIndex = 9;
             // 
+            // colNmae
+            // 
+            this.colNmae.HeaderText = "ФИО";
+            this.colNmae.Name = "colNmae";
+            // 
+            // colPhone
+            // 
+            this.colPhone.HeaderText = "Телефон";
+            this.colPhone.Name = "colPhone";
+            // 
+            // colEmail
+            // 
+            this.colEmail.HeaderText = "Email";
+            this.colEmail.Name = "colEmail";
+            // 
+            // colCategory
+            // 
+            this.colCategory.HeaderText = "Категория";
+            this.colCategory.Name = "colCategory";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,6 +194,10 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNmae;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPhone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colEmail;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCategory;
     }
 }
 
