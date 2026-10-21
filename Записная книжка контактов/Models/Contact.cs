@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ContactBookApp.Models
+namespace Записная_книжка_контактов.Models
 {
     public class Contact
     {
